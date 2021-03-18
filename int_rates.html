@@ -1,0 +1,106 @@
+
+<html>
+<head>
+<div style="overflow:scroll; width:1600px; height:800px">
+<style>
+    h2 {
+        text-align: center;
+        font-family: NanumGothic;
+        color: #003C5A;
+    }
+    table { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .scroll
+		{
+        min-height: 67.5%;
+        width: 26.5%;
+        position: absolute;
+        top: 162%;
+        overflow: scroll;
+        }
+        
+    th, td {
+        padding: 5px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 90%;
+    }
+        
+    th {
+        color: white;
+        background-color: #003C5A;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        
+        
+    }
+    table tbody tr:hover {
+        background-color: #dddddd;
+        color: #003C5A;
+    }
+    .wide {
+        width: 90%; 
+    }
+    table tr:nth-child(even) {
+        background-color: lightgrey;
+    }
+
+</style>
+</head>
+<body>
+    <h2> Interest Rate 2x Available Trades </h2>
+<table border="1" class="dataframe wide">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>index</th>
+      <th>Underlying Asset</th>
+      <th>Asset Price</th>
+      <th>Minimum</th>
+      <th>Exp_Date</th>
+      <th>Time (Months)</th>
+      <th>2x Through(%)</th>
+      <th>Max Gain (%)</th>
+      <th>Trade_Type</th>
+      <th>Fact Sheet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>TMV</td>
+      <td>82.42</td>
+      <td>8242.0</td>
+      <td>2021-05-21</td>
+      <td>2.1</td>
+      <td>12.5</td>
+      <td>25.0</td>
+      <td>Interest Rates</td>
+      <td><a href="https://jgarden79.github.io/test_proj/SPY_Interest Rates.html">Interest Rates</a></td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>TMV</td>
+      <td>82.42</td>
+      <td>8242.0</td>
+      <td>2021-08-20</td>
+      <td>5.1</td>
+      <td>25.0</td>
+      <td>50.0</td>
+      <td>Interest Rates</td>
+      <td><a href="https://jgarden79.github.io/test_proj/SPY_Interest Rates.html">Interest Rates</a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
